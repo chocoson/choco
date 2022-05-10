@@ -17,7 +17,15 @@ void visual () {
     printf("========================================");
 } // 기본 인터페이스 틀 함수
 
-// 강아지 선택 함수
+int whichdog () {
+    int dog;
+    printf("어떤 강아지인가요?");
+    doglist();
+
+    return dog;
+} // 강아지 선택 함수
+
+
 // 
 
 int main () {
