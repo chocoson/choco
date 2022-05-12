@@ -25,8 +25,20 @@ int whichdog () {
     return dog;
 } // 강아지 선택 함수
 
+void writeDiary () {
+    
+} // 강아지 일지 작성함수
+
+int askNum () {
+    int num=0; // 번호 받을 변수명
+    printf("원하시는 기능을 선택하세요!");
+    printf("1. 반려동물 산책일지 작성\n2. 반려동물 사료 급여일지 작성\n3. 반려동물 정기검진 결과 작성\n4. 반려동물 성장일지 작성\n5. 작성된 일지 확인\n번호 입력 : ");
+    scanf("%d",&num);
+    return num;
+}
 
 // 
+
 
 int main () {
 
