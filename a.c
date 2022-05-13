@@ -37,13 +37,27 @@ int askNum () {
     return num;
 }
 
+
 // 
 
 
 int main () {
 
-
-
-
+int num = askNum();
+    
+    if (num==1) {
+    }
+    
+    else if (num==1) {
+    }
+    
+    else if (num==1) {
+    }
+    
+    else if (num==1) {
+    }
+    
+    else  {
+    }
     return 0;
 }
